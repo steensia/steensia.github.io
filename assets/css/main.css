@@ -248,7 +248,7 @@ a {
   -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
   -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
   transition: color 0.2s ease, border-bottom-color 0.2s ease;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  /* border-bottom: dotted 1px rgba(255, 255, 255, 0.35); */
   color: inherit;
   text-decoration: none;
 }
@@ -3960,3 +3960,5 @@ body.is-preload #sidebar nav ul li {
     background-attachment: scroll;
   }
 }
+
+/* My CSS */
