@@ -4057,3 +4057,7 @@ p.project {
   font-style: italic;
   font-weight: normal;
 }
+
+h2.intro {
+  font-weight: normal;
+}
