@@ -255,7 +255,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #ffffff;
+  color: #d384b6;
 }
 
 strong,
@@ -275,7 +275,6 @@ p {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -283,6 +282,10 @@ h6 {
   font-weight: bold;
   line-height: 1.5;
   margin: 0 0 0.5em 0;
+}
+
+h3 {
+  margin-bottom: 0;
 }
 
 h1 a,
@@ -4029,6 +4032,15 @@ body.is-preload #sidebar nav ul li {
 }
 
 /* My CSS */
+summary {
+  color: white;
+  text-decoration: underline;
+}
+
+summary:hover {
+  color: #d384b6;
+}
+
 .contact-span {
   font-weight: normal;
   font-size: large;
@@ -4042,6 +4054,7 @@ body.is-preload #sidebar nav ul li {
 .image-company {
   width: 400px;
   height: 400px;
+  padding: 30px;
 }
 
 .image-company-section {
@@ -4060,31 +4073,60 @@ body.is-preload #sidebar nav ul li {
   }
 }
 
+h2 span {
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  h2 span {
+    padding-top: 2px;
+  }
+}
+
+.timeframe-container {
+  display: inline-block;
+  width: 100%;
+  line-height: 30px;
+}
+
 .timeframe-company {
   float: right;
   font-style: italic;
   font-weight: normal;
-}
-
-.timeframe-company-mobile {
-  display: none;
-}
-
-@media screen and (max-width: 375px) {
-  .timeframe-company {
-    display: none;
-  }
-
-  .timeframe-company-mobile {
-    display: contents;
-    font-style: italic;
-    font-weight: normal;
-  }
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .timeframe-project {
   font-style: italic;
   font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 425px) {
+  .timeframe-company {
+    font-size: 14px;
+  }
+
+  .timeframe-project {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .timeframe-company-mobile {
+    display: contents;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  .timeframe-company {
+    font-size: 14px;
+  }
+
+  .timeframe-project {
+    font-size: 12px;
+  }
 }
 
 h2.intro {
