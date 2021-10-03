@@ -2160,7 +2160,7 @@ button:hover:active:after,
 
 .features section {
   padding: 2em 3em 1em 7em;
-  width: 100%;
+  width: 50%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
 }
@@ -4039,21 +4039,50 @@ body.is-preload #sidebar nav ul li {
   color: rgba(255, 255, 255, 0.55);
 }
 
-p.project-first {
-  margin: 0 0 0.5em 0;
-}
-
-p.project {
-  margin: 0;
-}
-
 .image-company {
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 400px;
 }
 
-.timeframe {
+.image-company-section {
+  width: 0px;
+  height: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-company {
+    display: none;
+  }
+
+  .image-company-section {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.timeframe-company {
   float: right;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.timeframe-company-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .timeframe-company {
+    display: none;
+  }
+
+  .timeframe-company-mobile {
+    display: contents;
+    font-style: italic;
+    font-weight: normal;
+  }
+}
+
+.timeframe-project {
   font-style: italic;
   font-weight: normal;
 }
