@@ -2159,13 +2159,13 @@ button:hover:active:after,
 }
 
 .features section {
-  padding: 3.5em 3em 1em 7em;
-  width: 50%;
+  padding: 2em 3em 1em 7em;
+  width: 100%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
 }
 
-.features section:nth-child(-n + 2) {
+.features section:nth-child(-n + 1) {
   border-top-width: 0;
 }
 
@@ -2188,7 +2188,7 @@ button:hover:active:after,
   transform: scale(1);
   position: absolute;
   left: 3em;
-  top: 3em;
+  top: 1.5em;
   opacity: 1;
 }
 
@@ -4039,7 +4039,7 @@ body.is-preload #sidebar nav ul li {
   color: rgba(255, 255, 255, 0.55);
 }
 
-p.project-one {
+p.project-first {
   margin: 0 0 0.5em 0;
 }
 
@@ -4050,4 +4050,10 @@ p.project {
 .image-company {
   width: 100px;
   height: 100px;
+}
+
+.timeframe {
+  float: right;
+  font-style: italic;
+  font-weight: normal;
 }
