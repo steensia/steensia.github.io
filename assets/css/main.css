@@ -300,7 +300,7 @@ h1 {
 }
 
 h1.major {
-  margin: 0 0 1.3em 0;
+  margin: 0 0 1em 0;
   position: relative;
   padding-bottom: 0.35em;
 }
@@ -327,8 +327,75 @@ h2 {
   font-size: 1.75em;
 }
 
+h2.major {
+  margin: 0 0 1em 0;
+  position: relative;
+  padding-bottom: 0.35em;
+  font-weight: normal;
+}
+
+h2.major:after {
+  background-image: -moz-linear-gradient(to left, #5e42a6, #b74e91);
+  background-image: -webkit-linear-gradient(to left, #5e42a6, #b74e91);
+  background-image: -ms-linear-gradient(to left, #5e42a6, #b74e91);
+  background-image: linear-gradient(to left, #5e42a6, #b74e91);
+  -moz-transition: max-width 0.2s ease;
+  -webkit-transition: max-width 0.2s ease;
+  -ms-transition: max-width 0.2s ease;
+  transition: max-width 0.2s ease;
+  border-radius: 0.2em;
+  bottom: 0;
+  content: "";
+  height: 0.05em;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+h2.major2:after {
+  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  -moz-transition: max-width 0.2s ease;
+  -webkit-transition: max-width 0.2s ease;
+  -ms-transition: max-width 0.2s ease;
+  transition: max-width 0.2s ease;
+  border-radius: 0.2em;
+  bottom: 0;
+  content: "";
+  height: 0.05em;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
 h3 {
   font-size: 1.1em;
+}
+
+h3.major {
+  margin: 0 0 1em 0;
+  position: relative;
+  padding-bottom: 0.35em;
+  font-weight: normal;
+}
+
+h3.major:after {
+  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  -moz-transition: max-width 0.2s ease;
+  -webkit-transition: max-width 0.2s ease;
+  -ms-transition: max-width 0.2s ease;
+  transition: max-width 0.2s ease;
+  border-radius: 0.2em;
+  bottom: 0;
+  content: "";
+  height: 0.05em;
+  position: absolute;
+  right: 0;
+  width: 100%;
 }
 
 h4 {
@@ -3828,10 +3895,10 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: -moz-linear-gradient(to left, #5e42a6, #b74e91);
+  background-image: -webkit-linear-gradient(to left, #5e42a6, #b74e91);
+  background-image: -ms-linear-gradient(to left, #5e42a6, #b74e91);
+  background-image: linear-gradient(to left, #5e42a6, #b74e91);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3962,3 +4029,25 @@ body.is-preload #sidebar nav ul li {
 }
 
 /* My CSS */
+.contact-span {
+  font-weight: normal;
+  font-size: large;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.contact-header {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+p.project-one {
+  margin: 0 0 0.5em 0;
+}
+
+p.project {
+  margin: 0;
+}
+
+.image-company {
+  width: 100px;
+  height: 100px;
+}
