@@ -4057,6 +4057,12 @@ summary:hover {
   padding: 30px;
 }
 
+.image-company.velvet-logo {
+  width: 320px;
+  height: 320px;
+  padding: 20px;
+}
+
 .image-company-section {
   width: 0px;
   height: 0px;
@@ -4070,6 +4076,11 @@ summary:hover {
   .image-company-section {
     width: 100px;
     height: 100px;
+  }
+
+  .image-company-section.velvet-logo {
+    width: 85px;
+    height: 85px;
   }
 }
 
@@ -4098,6 +4109,7 @@ h2 span {
 }
 
 .timeframe-project {
+  float: right;
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
