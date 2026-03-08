@@ -2719,6 +2719,10 @@ input[type="radio"] + label:before {
   color: #953d75;
 }
 
+.wrapper.style3 .features .icon.major {
+  background: #ffffff !important;
+}
+
 /* Image */
 
 .image-company {
@@ -4058,9 +4062,10 @@ summary:hover {
 }
 
 .image-company.velvet-logo {
-  width: 320px;
-  height: 320px;
-  padding: 20px;
+  width: 260px;
+  height: 160px;
+  padding: 30px;
+  object-fit: contain;
 }
 
 .image-company-section {
@@ -4079,8 +4084,9 @@ summary:hover {
   }
 
   .image-company-section.velvet-logo {
-    width: 85px;
-    height: 85px;
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
   }
 }
 
