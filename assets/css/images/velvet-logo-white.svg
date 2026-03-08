@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">Velvet Financial Services</title>
+  <desc id="desc">Wordmark for Velvet Financial Services.</desc>
+  <rect width="900" height="220" fill="none"/>
+  <g fill="#ffffff">
+    <text x="36" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" letter-spacing="3">VELVET</text>
+    <text x="40" y="172" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="600" letter-spacing="5">FINANCIAL SERVICES</text>
+  </g>
+</svg>
