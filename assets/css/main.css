@@ -4017,6 +4017,12 @@ body.is-preload #sidebar nav ul li {
   font-size: 1.25em;
 }
 
+#intro hr {
+  border-bottom: solid 2px rgba(255, 255, 255, 0.55);
+  width: 90%;
+  margin: 2em 0;
+}
+
 @media screen and (max-width: 980px) {
   #intro p br {
     display: none;
@@ -4061,13 +4067,6 @@ summary:hover {
   padding: 30px;
 }
 
-.image-company.velvet-logo {
-  width: 260px;
-  height: 160px;
-  padding: 30px;
-  object-fit: contain;
-}
-
 .image-company-section {
   width: 0px;
   height: 0px;
@@ -4083,11 +4082,6 @@ summary:hover {
     height: 100px;
   }
 
-  .image-company-section.velvet-logo {
-    width: 100px;
-    height: 60px;
-    object-fit: contain;
-  }
 }
 
 h2 span {
