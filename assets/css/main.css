@@ -3429,6 +3429,7 @@ table.alt tfoot {
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
+    border-top: solid 1px rgba(255, 255, 255, 0.2);
   }
 
   #one.spotlights > section > .content {
@@ -3443,9 +3444,8 @@ table.alt tfoot {
     width: 100%;
   }
 
-  #one.spotlights > section:nth-child(2),
-  #one.spotlights > section:nth-child(3) {
-    background-color: transparent;
+  #one.spotlights > section:first-child {
+    border-top: 0;
   }
 
   #two > .inner {
