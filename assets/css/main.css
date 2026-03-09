@@ -3413,6 +3413,51 @@ table.alt tfoot {
   background-color: #953d75;
 }
 
+@media screen and (min-width: 1281px) {
+  #one.spotlights,
+  #two.wrapper {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+
+  #one.spotlights > section {
+    align-items: center;
+  }
+
+  #one.spotlights > section {
+    max-width: 74em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+  }
+
+  #one.spotlights > section > .content {
+    padding-left: 2.25em;
+    padding-right: 0;
+    width: auto;
+    min-width: 0;
+  }
+
+  #one.spotlights > section > .content > .inner {
+    max-width: none;
+    width: 100%;
+  }
+
+  #one.spotlights > section:nth-child(2),
+  #one.spotlights > section:nth-child(3) {
+    background-color: transparent;
+  }
+
+  #two > .inner {
+    width: 100%;
+    max-width: 74em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .wrapper.fullscreen {
   display: -moz-flex;
   display: -webkit-flex;
@@ -4142,10 +4187,20 @@ h2 span {
   justify-content: space-between;
   gap: 0.75em;
   line-height: 1.5;
+  color: #ffffff;
 }
 
 .features .timeframe-container > a {
   min-width: 0;
+  color: #ffffff;
+}
+
+.features .timeframe-container > a:hover {
+  color: #d384b6;
+}
+
+.features section > li:first-of-type {
+  margin-top: 0.5em;
 }
 
 .features .timeframe-project {
